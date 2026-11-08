@@ -44,10 +44,29 @@ When activated:
 5. Never fabricate test results, file paths, or line numbers.
 6. Do not modify code unless the user requests changes.
 
-## Module Selection
+### Git Commit Writer
+
+Reference: `references/git-commit-writer.md`
+
+Activate this module when the user requests:
+- Git commit message generation
+- Conventional Commits
+- Git change summaries
+- Commit organization
+- Commit history cleanup
+
+When activated:
+1. Read `references/git-commit-writer.md` completely.
+2. Inspect actual repository changes when accessible.
+3. Choose an appropriate Conventional Commit type.
+4. Generate an accurate and concise commit message.
+5. Never invent changes that have not been verified.
+6. Do not create commits unless explicitly authorized.
+
+## Module Selection  
 
 Select modules according to the user's task.
 Load only relevant reference files.
 More specialized modules will be added later.
-  
+
   
