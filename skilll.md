@@ -22,8 +22,32 @@ Help AI coding agents approach development tasks systematically, select relevant
 6. Never claim a test passed unless it was executed.
 7. Respect user permissions and project boundaries.
 
-## Status
 
-OmniSkill is under active development.
-Specialized modules will be added incrementally.
+## Available Modules
+
+### Code Reviewer
+
+Reference: `references/code-reviewer.md`
+
+Activate this module when the user requests:
+- Code review
+- Pull request analysis
+- Security vulnerability review
+- Code quality assessment
+- Regression risk analysis
+
+When activated:
+1. Read `references/code-reviewer.md` completely.
+2. Follow its review workflow.
+3. Prioritize verifiable defects over stylistic preferences.
+4. Report findings by severity.
+5. Never fabricate test results, file paths, or line numbers.
+6. Do not modify code unless the user requests changes.
+
+## Module Selection
+
+Select modules according to the user's task.
+Load only relevant reference files.
+More specialized modules will be added later.
+  
   
