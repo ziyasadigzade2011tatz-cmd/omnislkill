@@ -1,4 +1,3 @@
-
 ---
 name: omniskill
 description: A modular AI skill system for Claude Code and OpenAI Codex, covering software engineering, debugging, Git, DevOps, documentation, and product workflows.
@@ -21,7 +20,6 @@ Help AI coding agents approach development tasks systematically, select relevant
 5. Verify results when tools are available.
 6. Never claim a test passed unless it was executed.
 7. Respect user permissions and project boundaries.
-
 
 ## Available Modules
 
@@ -63,10 +61,8 @@ When activated:
 5. Never invent changes that have not been verified.
 6. Do not create commits unless explicitly authorized.
 
-## Module Selection  
+## Module Selection
 
 Select modules according to the user's task.
 Load only relevant reference files.
 More specialized modules will be added later.
-
-  
